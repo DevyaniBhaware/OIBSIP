@@ -1,0 +1,1061 @@
+.body {
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+}
+
+/*header*/
+
+.header {
+    height: 60px;
+    width: auto;
+    background-color: rgb(228, 239, 246);
+    display: flex;
+}
+
+.header img {
+    height: 50px;
+    border-radius: 5px;
+    width: 80%;
+}
+
+#logo {
+    margin-left: 00px;
+    font-size: 15px;
+    height: 85px;
+    border-radius: 30px;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#logo1 {
+    height: 150px;
+    width: 150px;
+}
+
+#logo2 {
+    margin-top: -130px;
+    margin-left: 50px;
+    width: 80px;
+}
+
+.nav {
+    margin: auto;
+    flex-direction: row;
+}
+
+
+h3 {
+    width: 100px;
+    justify-content: space-around;
+    align-items: center;
+    font-size: smaller;
+    padding: 5px;
+    text-align: center;
+}
+
+h3:hover {
+
+    border: 3px solid #41ead1;
+    border-radius: 30px;
+}
+
+#home,
+#about,
+#oppointment,
+#services {
+    margin-right: 15px;
+    margin-left: 0px;
+}
+
+/*content1*/
+.content1::before {
+    content: "";
+    background-image: url("./background123.jpg");
+    opacity: 1;
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 610px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    left: 0rem;
+    top: -40px;
+}
+
+.content1 {
+    width: auto;
+    height: 500px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.data1 {
+    flex-direction: row;
+    overflow: auto;
+    height: auto;
+    width: auto;
+    background-color: transparent;
+}
+
+#first {
+    overflow-wrap: normal;
+    margin-top: 30px;
+    margin-right: -200px;
+    padding: 40px;
+}
+
+.square {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+}
+
+.square1 {
+    background-color: #3ed9c2;
+    border: 3px solid #3ed9c2;
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    width: 160px;
+}
+
+.square2 {
+    border: 3px solid #3ed9c2;
+    color: #3ed9c2;
+    font-size: 25px;
+    padding: 10px;
+    width: 160px;
+    background-color: #ffffff;
+
+}
+
+.square11 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    margin-top: 30px;
+}
+
+.square12 {
+    border: 3px solid #3ed9c2;
+    border-radius: 15px;
+    text-align: center;
+    width: 80px;
+    margin-right: 10px;
+    padding: 2px;
+}
+
+.square22:hover,
+.square12:hover {
+    color: #3bbca9;
+    background-color: #ffffff;
+    padding: 4px;
+}
+
+.square22 {
+    border-radius: 25%;
+    text-align: center;
+    border: 3px solid #3ed9c2;
+    border-radius: 15px;
+    width: 80px;
+    margin-left: 10px;
+    padding: 2px;
+
+}
+
+#span {
+    margin-top: 30px;
+    font-size: 20px;
+    font-style: initial;
+}
+
+#second img {
+
+    height: 495px;
+    image-resolution: 720px;
+    width: 500px;
+}
+
+/*content2*/
+.content2 {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+}
+
+.data2 {
+    width: 300px;
+    border: 2px solid #3bbca9;
+    height: 250px;
+    margin: 25px;
+    margin-bottom: 0px;
+    margin-top: 30px;
+    background-color: aliceblue;
+}
+
+.data21 {
+    width: 300px;
+    border: 2px solid goldenrod;
+    height: 250px;
+    margin: 25px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    background-color: rgb(251, 252, 227);
+}
+
+.triangle {
+    height: 90px;
+    width: 90px;
+    background-color: transperent;
+}
+
+.triangle::after {
+    position: absolute;
+    content: " ";
+    border-top: 90px solid #3bbca9;
+    border-right: 90px solid transparent;
+
+}
+
+.triangle1 {
+    height: 90px;
+    width: 90px;
+    background-color: transperent;
+}
+
+.triangle1::after {
+    position: absolute;
+    content: " ";
+    border-top: 90px solid rgb(240, 182, 33);
+    border-right: 90px solid transparent;
+
+}
+
+.text {
+    text-align: center;
+}
+
+.text i {
+    width: 200px;
+    text-align: center;
+    height: 100px;
+}
+
+.text h4 {
+    margin-bottom: 20px;
+    margin-top: -40px;
+    font-size: 18px;
+}
+
+.read {
+    margin-top: 30px;
+    text-align: center;
+
+}
+
+.read:hover {
+    color: #1f6056;
+
+}
+
+.read1 {
+    margin-top: 30px;
+    text-align: center;
+
+}
+
+.read1:hover {
+    color: goldenrod;
+
+}
+
+.speciality {
+    margin-top: 180px;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+hr {
+    width: 450px;
+}
+
+.content3::before {
+    content: "";
+    background-image: url("./bacckground2.jpg");
+    opacity: 0.9;
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    left: 0rem;
+    margin-top: -200px;
+}
+
+.content3 {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+.box {
+    height: 350px;
+    width: 250px;
+    margin: 25px;
+    margin-top: 100px;
+    background: #ffffff;
+
+
+}
+
+#img {
+    height: 200px;
+    width: 250px;
+    border-bottom: 6px solid #3bbca9;
+}
+
+#para {
+    font-size: 20px;
+    text-align: center;
+    font-style: oblique;
+}
+
+#choose {
+    height: 500px;
+    background-color: #d3faf3;
+    opacity: 1;
+}
+
+.class1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#class2 {
+    height: 500px;
+}
+
+#class3 {
+    height: 500px;
+}
+
+#p {
+    font-size: 45px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+#class1 {
+    width: 650px;
+    margin-right: -400px;
+    font-size: 20px;
+}
+
+.section11 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+#section1 {
+    border: 2px solid #3bbca9;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    height: 180px;
+}
+
+#section2 {
+    border: 2px solid #3bbca9;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    height: 180px;
+}
+
+.mail {
+    margin: 5px;
+}
+
+.p1 {
+    text-align: center;
+    font-size: 28px;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #1f6056;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    height: 40px;
+    padding: 10px;
+}
+
+
+/*Adding Responsiveness*/
+
+
+@media (max-width:600px) {
+
+    .body {
+        width: 100%;
+    }
+
+    .header {
+        height: 40px;
+
+    }
+
+    .header img {
+        height: 20px;
+        border-radius: 5px;
+        width: 40%;
+    }
+
+    #logo {
+
+        font-size: 10px;
+        height: 85px;
+    }
+
+    #logo1 {
+        height: 75px;
+        width: 75px;
+    }
+
+    #logo2 {
+        margin-top: -65px;
+        margin-left: 30px;
+        width: 80px;
+    }
+
+    .header {
+        width: 100%;
+    }
+
+    h3 {
+        width: 50px;
+        font-size: 8px;
+        padding: 2px;
+    }
+
+    h3:hover {
+
+        border: 2px solid #41ead1;
+        border-radius: 30px;
+    }
+
+    #home,
+    #about,
+    #oppointment,
+    #services {
+        margin-right: 5px;
+        margin-left: 0px;
+    }
+
+    .content1::before {
+
+        height: 400px;
+    }
+
+
+    #first {
+        margin-top: 40px;
+        margin-right: -100px;
+        padding: 10px;
+        width: 250px;
+        height: 275px;
+    }
+
+    .square {
+        height: 30px;
+    }
+
+    .square1 {
+
+        font-size: 15px;
+        padding: 5px;
+        width: 80px;
+    }
+
+    .square2 {
+        font-size: 15px;
+        padding: 5px;
+        width: 80px;
+
+    }
+
+    .square11 {
+        height: 20px;
+        margin-top: 15px;
+    }
+
+    .square12 {
+        width: 40px;
+        padding: 2px;
+        font-size: 8px;
+        border: 2px solid #3ed9c2;
+    }
+
+    .square22:hover,
+    .square12:hover {
+        padding: 3px;
+    }
+
+    .square22 {
+        width: 40px;
+        padding: 2px;
+        border: 2px solid #3ed9c2;
+        font-size: 8px;
+
+    }
+
+    .content1 {
+        text-align: left;
+        height: 380px;
+    }
+
+    h1 {
+        font-size: 20px;
+        margin-top: 25px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    #dot {
+        font-size: 10px;
+        text-align: left;
+        margin-left: -5px;
+        margin-top: 5px;
+        width: 200px;
+    }
+
+    #span {
+        margin-top: 10px;
+        font-size: 8px;
+        text-align: center;
+    }
+
+    #second img {
+
+        height: 300px;
+        image-resolution: 720px;
+        width: 190px;
+    }
+
+    /*content2*/
+    .content3::before{
+        display: none;
+    }
+    .content2 {
+        height: 40px;
+    }
+
+    .data2 {
+        width: 200px;
+        height: 200px;
+        margin: 10px;
+        margin-top: -10px;
+    }
+
+    .data21 {
+        width: 200px;
+        height: 200px;
+        margin: 10px;
+        margin-top: -10px;
+    }
+
+    .triangle {
+        height: 45px;
+        width: 45px;
+    }
+
+    .triangle::after {
+        position: absolute;
+        content: " ";
+        border-top: 45px solid #3bbca9;
+        border-right: 45px solid transparent;
+    }
+
+    .triangle1 {
+        height: 45px;
+        width: 45px;
+    }
+
+    .triangle1::after {
+        position: absolute;
+        content: " ";
+        border-top: 45px solid rgb(240, 182, 33);
+        border-right: 45px solid transparent;
+
+    }
+
+
+    .text i {
+        font-size: 8px;
+        padding: 0px;
+        font-style: normal;
+        text-align: left;
+    }
+
+    .text h4 {
+        margin-bottom: 5px;
+        margin-top: -10px;
+        font-size: 10px;
+    }
+
+    .read {
+        margin-top: 10px;
+        font-size: 10px;
+
+    }
+
+    .read1 {
+        margin-top: 30px;
+        font-size: 10px;
+    }
+
+
+    .speciality {
+        margin-top: 110px;
+        font-size: 25px;
+    }
+
+    hr {
+        width: 225px;
+    }
+
+    .content3::before {
+
+        height: 350px;
+        margin-top: 10px;
+    }
+
+    .box {
+        height: 175px;
+        width: 100px;
+        margin: 20px;
+        margin-top: 20px;
+    }
+
+    #img {
+        height: 100px;
+        width: 125px;
+    }
+
+    #para {
+        font-size: 10px;
+    }
+
+    p {
+        font-size: 10px;
+    }
+
+    #choose {
+        height: 300px;
+        opacity: 1;
+        margin-top: 40px;
+        width: 100%;
+    }
+
+    #class2 {
+        width: 250px;
+        height: 300px;
+    }
+
+    #class3 {
+        width: 250px;
+        height: 250px;
+    }
+
+    #p {
+        font-size: 25px;
+        margin-top: 25px;
+    }
+
+    #class1 {
+        width: 250px;
+        margin-right: -100px;
+        font-size: 10px;
+        height: 300px;
+    }
+
+    #section1 {
+        border: 0px;
+        padding: 0px;
+        margin: 5px;
+        width: 125px;
+        height: 90px;
+    }
+
+    #section11 {
+        width: 300px;
+        margin-right: -30px;
+    }
+
+    #section2 {
+        border: 0px;
+        padding: 0px;
+        margin: 5px;
+        width: 150px;
+        height: 90px;
+    }
+
+    .mail {
+        margin: 0px;
+    }
+
+    .p1 {
+        font-size: 14px;
+        margin-top: 5px;
+    }
+
+    footer {
+        font-size: 15px;
+        height: 20px;
+        padding: 10px;
+    }
+
+}
+
+@media (min-width:600px) and (max-width:900px) {
+
+    .body {
+        width: 100%;
+    }
+
+    .header {
+        height: 50px;
+
+    }
+
+    .header img {
+        height: 30px;
+        border-radius: 8px;
+        width: 50%;
+    }
+
+    #logo {
+
+        font-size: 15px;
+        height: 100px;
+    }
+
+    #logo1 {
+        height: 100px;
+        width: 100px;
+    }
+
+    #logo2 {
+        margin-top: -90px;
+        margin-left: 40px;
+        width: 80px;
+    }
+
+    .header {
+        width: 100%;
+    }
+
+    h3 {
+        width: 70px;
+        font-size: 10px;
+        padding: 4px;
+    }
+
+    h3:hover {
+
+        border: 2px solid #41ead1;
+        border-radius: 30px;
+    }
+
+    #home,
+    #about,
+    #oppointment,
+    #services {
+        margin-right: 5px;
+        margin-left: 0px;
+    }
+
+    .content1::before {
+
+        height: 450px;
+    }
+
+
+    #first {
+        margin-top: 45px;
+        margin-right: -150px;
+        padding: 10px;
+        width: 450px;
+        height: 300px;
+    }
+
+    .square {
+        height: 40px;
+    }
+
+    .square1 {
+
+        font-size: 20px;
+        padding: 5px;
+        width: 100px;
+    }
+
+    .square2 {
+        font-size: 20px;
+        padding: 5px;
+        width: 100px;
+    }
+
+    .square11 {
+        height: 30px;
+        margin-top: 20px;
+    }
+
+    .square12 {
+        width: 60px;
+        padding: 3px;
+        font-size: 12px;
+        border: 2px solid #3ed9c2;
+    }
+
+    .square22:hover,
+    .square12:hover {
+        padding: 3px;
+    }
+
+    .square22 {
+        width: 60px;
+        padding: 3px;
+        font-size: 12px;
+        border: 2px solid #3ed9c2;
+    }
+
+    .content1 {
+        text-align: center;
+        height: 400px;
+    }
+
+    h1 {
+        font-size: 25px;
+        margin-top: 30px;
+        text-align: center;
+        margin-bottom: 30px;
+        width: 415px;
+    }
+
+    #dot {
+        font-size: 15px;
+        text-align: center;
+        margin-left: -5px;
+        margin-top: 5px;
+        width: 350px;
+    }
+
+    #span {
+        margin-top: 10px;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    #second img {
+
+        height: 350px;
+        image-resolution: 720px;
+        width: 300px;
+    }
+
+    /*content2*/
+    .content3::before{
+        display: none;
+    }
+    .content2 {
+        height: 40px;
+    }
+
+    .data2 {
+        width: 200px;
+        height: 200px;
+        margin: 10px;
+        margin-top: 15px;
+    }
+
+    .data21 {
+        width: 200px;
+        height: 200px;
+        margin: 10px;
+        margin-top: 15px;
+    }
+
+    .triangle {
+        height: 60px;
+        width: 60px;
+    }
+
+    .triangle::after {
+        position: absolute;
+        content: " ";
+        border-top: 60px solid #3bbca9;
+        border-right: 60px solid transparent;
+    }
+
+    .triangle1 {
+        height: 60px;
+        width: 60px;
+    }
+
+    .triangle1::after {
+        position: absolute;
+        content: " ";
+        border-top: 60px solid rgb(240, 182, 33);
+        border-right: 60px solid transparent;
+
+    }
+    .text i {
+        font-size: 13px;
+        padding: 5px;
+        font-style: normal;
+        text-align: center;
+    }
+
+    .text h4 {
+        margin-bottom: 5px;
+        margin-top: -20px;
+        font-size: 18px;
+    }
+
+    .read {
+        margin-top: 10px;
+        font-size: 15px;
+
+    }
+
+    .read1 {
+        margin-top: 0px;
+        font-size: 15px;
+    }
+
+
+    .speciality {
+        margin-top: 150px;
+        font-size: 25px;
+    }
+
+    hr {
+        width: 225px;
+    }
+
+    .content3::before {
+
+        height: 300px;
+        margin-top: 10px;
+    }
+
+    .box {
+        height: 175px;
+        width: 125px;
+        margin: 10px;
+        margin-top: 20px;
+    }
+
+    #img {
+        height: 100px;
+        width: 125px;
+    }
+
+    #para {
+        font-size: 12px;
+    }
+
+    p {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    #choose {
+        height: 400px;
+        opacity: 1;
+        margin-top: 40px;
+        width: 100%;
+    }
+
+    #class2 {
+        width: 400px;
+        height: 350px;
+    }
+
+    #class3 {
+        width: 400px;
+        height: 400px;
+    }
+
+    #p {
+        font-size: 35px;
+        margin-top: 25px;
+    }
+
+    #class1 {
+        width: 500px;
+        margin-right: -200px;
+        font-size: 15px;
+        height: 350px;
+    }
+
+    #section1 {
+        border: 0px;
+        padding: 0px;
+        margin: 5px;
+        width: 200px;
+        height: 100px;
+        margin-left: -20px;
+    }
+
+    #section11 {
+        width: 400px;
+        margin-right: -30px;
+    }
+
+    #section2 {
+        border: 0px;
+        padding: 0px;
+        margin: 5px;
+        width: 200px;
+        height: 100px;
+    }
+
+    .mail {
+        margin: 0px;
+        font-size: 15px;
+    }
+
+    .p1 {
+        font-size: 20px;
+        margin-top: 5px;
+    }
+
+    footer {
+        font-size: 25px;
+        height: 20px;
+        padding: 10px;
+    }
+
+}
