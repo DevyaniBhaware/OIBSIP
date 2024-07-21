@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute Page</title>
+    <link rel="stylesheet" href="tribute.css">
+</head>
+<body>
+    <header>
+        <h1>Tribute to Nikola Tesla</h1>
+    </header>
+    <section class="intro">
+        <img src="tesla.jpg" alt="Nikola Tesla" class="portrait">
+        <p>Nikola Tesla was a Serbian-American inventor, electrical engineer, mechanical engineer, and futurist who is best known for his contributions to the design of the modern alternating current (AC) electricity supply system.</p>
+    </section>
+    <section class="life-timeline">
+        <h2>Timeline of Tesla's Life</h2>
+        <ul>
+            <li><strong>1856:</strong> Born in Smiljan, Austrian Empire (modern-day Croatia).</li>
+            <li><strong>1884:</strong> Moves to the United States and begins working with Thomas Edison.</li>
+            <li><strong>1891:</strong> Patents the Tesla coil.</li>
+            <li><strong>1893:</strong> Demonstrates wireless power transmission.</li>
+            <li><strong>1943:</strong> Dies in New York City at the age of 86.</li>
+        </ul>
+    </section>
+    <section class="achievements">
+        <h2>Major Achievements</h2>
+        <ul>
+            <li>Developed the alternating current (AC) electrical system.</li>
+            <li>Invented the Tesla coil.</li>
+            <li>Pioneered wireless communication and energy transmission.</li>
+            <li>Contributed to the development of X-rays.</li>
+            <li>Laid the groundwork for modern radio and television.</li>
+        </ul>
+    </section>
+    <footer>
+        <p>Learn more about Nikola Tesla on <a href="https://en.wikipedia.org/wiki/Nikola_Tesla" target="_blank">Wikipedia</a>.</p>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+    const footer = document.querySelector('footer');
+    const button = document.createElement('button');
+    button.textContent = 'Change Background Color';
+    footer.appendChild(button);
+
+    button.addEventListener('click', () => {
+        document.body.style.backgroundColor = getRandomColor();
+    });
+});
+
+function getRandomColor() {
+    const letters = '0123456789ABCDEF';
+    let color = '#';
+    for (let i = 0; i < 6; i++) {
+        color += letters[Math.floor(Math.random() * 16)];
+    }
+    return color;
+}
+
+    </script>
+</body>
+</html>
